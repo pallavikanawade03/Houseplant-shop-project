@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Houseplant Shop - Products</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Houseplant Shop</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="product-listing">
+    <h2>Our Houseplants</h2>
+    <div class="product-category">
+      <h3>Succulents</h3>
+      <div class="product">
+        <img src="plant1.jpg" alt="Plant 1">
+        <h4>Succulent 1</h4>
+        <p>$100.00</p>
+        <button class="add-to-cart" data-id="1">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="plant2.jpg" alt="Plant 2">
+        <h4>Succulent 2</h4>
+        <p>$120.00</p>
+        <button class="add-to-cart" data-id="2">Add to Cart</button>
+      </div>
+    </div>
+    <div class="product-category">
+      <h3>Ferns</h3>
+      <div class="product">
+        <img src="plant3.jpg" alt="Plant 3">
+        <h4>Fern 1</h4>
+        <p>$150.00</p>
+        <button class="add-to-cart" data-id="3">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="plant4.jpg" alt="Plant 4">
+        <h4>Fern 2</h4>
+        <p>$180.00</p>
+        <button class="add-to-cart" data-id="4">Add to Cart</button>
+      </div>
+    </div>
+    <div class="product-category">
+      <h3>Flowering Plants</h3>
+      <div class="product">
+        <img src="plant5.jpg" alt="Plant 5">
+        <h4>Flowering Plant 1</h4>
+        <p>$200.00</p>
+        <button class="add-to-cart" data-id="5">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="plant6.jpg" alt="Plant 6">
+        <h4>Flowering Plant 2</h4>
+        <p>$250.00</p>
+        <button class="add-to-cart" data-id="6">Add to Cart</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
